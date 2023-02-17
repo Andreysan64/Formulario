@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_Registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <fieldset><legend>Registro Usuario</legend>
+    <form action="" class="form">
+        <p>Nombre</p>
+        <input type="text" name="text" class="input" required pattern="[a-zA-Z]+" minlength="2" maxlength="20"><br>
+        <p>Apellido</p>
+        <input type="text" name="text" class="input" required pattern="[a-zA-Z]+" minlength="2" maxlength="20"><br>
+        <p>Documento</p>
+        <input type="text" name="text" class="input" required pattern="[0-9]+" minlength="2" maxlength="20">
+        <select id="tipoId" name="select" size="1" class="input100">
+            <option value="" selected="selected">Tipo de documento</option>
+            <option value="CC">Cédula de Ciudadanía</option>
+            <option value="TI">Tarjeta de Identidad</option>
+            <option value="CE">Cédula de Extranjería</option>
+            <option value="PEP">PEP</option>
+            <option value="PPT">Permiso por Protección Temporal</option>
+        </select>
+        <p>Correo Electronico</p>
+        <input type="email" name="text" class="input">
+        <p>Contraseña</p>
+        <input type="password" name="text" class="input"><br><br>
+        <input type="reset" value="Restablecer">
+        <input type="submit" value="Enviar">
+    </form>
+    </fieldset>
+
+
+
+
+</body></fieldset>
+</html>

@@ -1,0 +1,62 @@
+.input {
+    max-width: 190px;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    transition: .5s;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transform: rotate(90deg);
+}
+
+.input:hover {
+    width: 150px;
+    transform: rotate(0);
+}
+
+.input:focus {
+    width: 150px;
+    transform: rotate(0);
+}
+
+body {
+    height: 800px;
+    width: 750px;
+    background: rgb(100, 0, 190);
+    margin-left: 300PX;
+}
+
+.input100 {
+    background: white;
+    width: 160px;
+}
+
+legend {
+    padding-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+fieldset {
+    float: left;
+    padding-top: 5px;
+}
+
+p {
+    color:white;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+label {
+    color: white;
+}
+
+div {
+    float:left;
+}
